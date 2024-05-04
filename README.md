@@ -31,6 +31,36 @@ The player with lower health attacks first at the beginning of a match.
 
 This is a simple Java implementation of the Magical Arena game. The Magical Arena is a turn-based battle game where two players engage in combat until one of them loses all their health points.
 
+## Approach
+
+1. **Observer Pattern (Audience)**:
+   - `Audience` observes the battle events.
+   - Updates are received and relevant information is printed.
+
+2. **State Management (BattleContext)**:
+   - Manages the battle state using the State pattern.
+   - Ensures the battle starts only when in progress.
+
+3. **Battle Execution (BattleMain)**:
+   - Orchestrates the battle between two `TeamMember` instances.
+   - Simulates battle rounds until one loses all health.
+
+4. **Observer Interface (GameObserver)**:
+   - Defines update method for observers.
+   - Implemented by concrete observers like `Audience`.
+
+5. **Game Status (GameStatus)**:
+   - Enum defining battle states like `IN_PROGRESS` and `FINISHED`.
+
+6. **Main Class**:
+   - Initializes game components and triggers battle.
+
+7. **TeamMember Interface and Implementation**:
+   - Defines common behavior and specifics for battle participants.
+
+
+## Class Diagram
+
 ![chatuml-diagram](https://github.com/bhartik021/swiggy-assignment/assets/75694208/f378c177-15ca-497a-b548-0c9af182bb81)
 
 ## Features
