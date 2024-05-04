@@ -27,11 +27,9 @@ You can use Java, Go or Node.js to implement the solution, without using any thi
 
 The player with lower health attacks first at the beginning of a match.
 
-## Solution
+## Solution & Approach
 
 This is a simple Java implementation of the Magical Arena game. The Magical Arena is a turn-based battle game where two players engage in combat until one of them loses all their health points.
-
-## Approach
 
 1. **Observer Pattern (Audience)**:
    - `Audience` observes the battle events.
