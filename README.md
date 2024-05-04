@@ -39,12 +39,6 @@ The player with lower health attacks first at the beginning of a match.
 
 This is a simple Java implementation of the Magical Arena game. The Magical Arena is a turn-based battle game where two players engage in combat until one of them loses all their health points.
 
-## Requirements
-
-- **Java Development Kit (JDK)**: Essential for compiling and running Java programs.
-- **Eclipse IDE**: Powerful integrated development environment for Java development.
-- **JUnit 4**: Popular unit testing framework for Java.
-
 ### Project Structure
 
 - `src/main/java` (Main.java): Contains the main source code files.
@@ -77,6 +71,14 @@ swiggyAssignment
 ```
 
 ### How to Build and Run
+
+To build and run the Magical Arena project locally, follow these steps:
+
+## Prerequisites
+
+- **Java Development Kit (JDK)**: Essential for compiling and running Java programs.
+- **Eclipse IDE**: Powerful integrated development environment for Java development.
+- **JUnit 4**: Popular unit testing framework for Java.
 
 1. **Import the project into Eclipse**:
    - Open Eclipse IDE.
