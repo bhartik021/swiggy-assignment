@@ -27,6 +27,12 @@ You can use Java, Go or Node.js to implement the solution, without using any thi
 
 The player with lower health attacks first at the beginning of a match.
 
+## Solution
+
+This is a simple Java implementation of the Magical Arena game. The Magical Arena is a turn-based battle game where two players engage in combat until one of them loses all their health points.
+
+![chatuml-diagram](https://github.com/bhartik021/swiggy-assignment/assets/75694208/f378c177-15ca-497a-b548-0c9af182bb81)
+
 ## Features
 
 - **Player Attributes**: Players have attributes such as health, strength, and attack, which determine their effectiveness in combat.
@@ -34,10 +40,6 @@ The player with lower health attacks first at the beginning of a match.
 - **Dice Rolls**: Attacks and defenses are resolved using dice rolls, adding an element of unpredictability to each encounter.
 - **Dynamic Damage Calculation**: Damage inflicted and defended is calculated dynamically based on player attributes and dice rolls.
 - **Game End Conditions**: The game ends when one player's health reaches 0, declaring the other player as the winner.
-
-## Solution
-
-This is a simple Java implementation of the Magical Arena game. The Magical Arena is a turn-based battle game where two players engage in combat until one of them loses all their health points.
 
 ### Project Structure
 
