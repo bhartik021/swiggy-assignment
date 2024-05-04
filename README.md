@@ -74,7 +74,7 @@ swiggyAssignment
 
 To build and run the Magical Arena project locally, follow these steps:
 
-### Prerequisites
+#### Prerequisites
 
 - **Java Development Kit (JDK)**: Essential for compiling and running Java programs.
 - **Eclipse IDE**: Powerful integrated development environment for Java development.
