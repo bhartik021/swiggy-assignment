@@ -50,6 +50,31 @@ This is a simple Java implementation of the Magical Arena game. The Magical Aren
 - `src/main/java` (Main.java): Contains the main source code files.
 - `src/test/java` (PlayerTest.java and MagicalArenaTest.java): Contains the test source code files.
 - `pom.xml`: Maven project configuration file.
+  
+```bash
+swiggyAssignment
+├── out
+│   └── production
+│       └── swiggyAssignment
+│           ├── Audience.class
+│           ├── BattleContext.class
+│           ├── BattleMain.class
+│           ├── GameObserver.class
+│           ├── GameStatus.class
+│           ├── Main.class
+│           ├── TeamMember.class
+│           └── Wizard.class
+├── src
+│   ├── Audience.java
+│   ├── BattleContext.java
+│   ├── BattleMain.java
+│   ├── GameObserver.java
+│   ├── GameStatus.java
+│   ├── Main.java
+│   ├── TeamMember.java
+│   └── Wizard.java
+└── swiggyAssignment.iml
+```
 
 ### How to Build and Run
 
